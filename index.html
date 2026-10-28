@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo del DOM</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="titulo">Título original</h1>
+
+  <!-- Ejemplo 1: saludo con value + addEventListener + textContent -->
+  <section>
+    <h2>Ejemplo 1: Saludo</h2>
+    <input type="text" id="inputNombre" placeholder="Escribe tu nombre">
+    <button id="btnSaludar">Saludar</button>
+    <p id="mensaje"></p>
+  </section>
+
+  <!-- Ejemplo 2: contador con addEventListener + textContent -->
+  <section>
+    <h2>Ejemplo 2: Contador</h2>
+    <p>Valor: <span id="valor">0</span></p>
+    <button id="btnSumar">+1</button>
+    <button id="btnReiniciar">Reiniciar</button>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
